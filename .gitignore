@@ -1,0 +1,61 @@
+# ---------------------------------------------------
+# 1. Maven Project Artifacts & Caches
+# ---------------------------------------------------
+# Compiled class files
+target/
+pom.xml.tag
+pom.xml.bak
+release.properties
+dependency-reduced-pom.xml
+build/
+*.jar
+*.war
+*.ear
+*.class
+
+# Maven logs and temporary files
+log/
+.mvn/wrapper/maven-wrapper.jar  # Keep the wrapper, ignore the JAR if desired
+!/.mvn/wrapper/maven-wrapper.properties # But keep the properties file
+
+# ---------------------------------------------------
+# 2. IDE Specific (VS Code / Eclipse)
+# ---------------------------------------------------
+# VS Code specific directories and files
+.vscode/
+# Exclude launch configuration files unless absolutely needed:
+# !.vscode/launch.json 
+# !.vscode/settings.json 
+
+# Eclipse / STS
+.metadata
+.classpath
+.project
+.settings/
+*.log
+
+# Intellij / IDEA
+.idea/
+
+# ---------------------------------------------------
+# 3. Spring Boot / Runtime Files
+# ---------------------------------------------------
+# Log files (Spring Boot default log locations)
+*.log
+logs/
+temp/
+
+# Application configuration files you DON'T want to track if they contain secrets
+# (Often configured via environment variables instead)
+# application*.properties
+# application*.yml
+
+# Gradle cache directory
+.gradle/
+
+# ---------------------------------------------------
+# 4. OS and Misc
+# ---------------------------------------------------
+# Thumbnails / System Files
+.DS_Store
+Thumbs.db
